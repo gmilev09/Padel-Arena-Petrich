@@ -1,0 +1,13 @@
+# ─── Padel Arena Petrich · Netlify ──────────────────────────────────────────
+# Статичен сайт: единствен dist/index.html (всичко е инлайннато),
+# без база данни, без environment променливи, без функции.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Header-ите се задават в public/_headers — файлът се копира в dist/ и се
+# чете и от Netlify, и от Cloudflare Pages (еден източник на истина).

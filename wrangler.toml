@@ -1,0 +1,7 @@
+# ─── Padel Arena Petrich · Cloudflare Pages ─────────────────────────────────
+# Използва се от `wrangler pages deploy` и от Git интеграцията на Pages.
+# Изходът е единствено dist/index.html — може да се сервира от Assets binding.
+
+name = "padel-arena-petrich"
+compatibility_date = "2026-11-18"
+pages_build_output_dir = "dist"
